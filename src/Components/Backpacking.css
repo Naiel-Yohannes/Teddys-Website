@@ -1,0 +1,64 @@
+.backpack{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    height: 540px;
+}
+
+.booking{
+    width: 41%;
+    margin: 10px;
+    border-radius: 10px;
+    background: lightblue;
+    padding: 30px;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.text div p{
+    font-size: 0.9rem;
+    background: rgba(255, 255, 255, 0.596);
+    padding: 8px 13px;
+    border-radius: 10px;
+}
+
+.description p {
+    font-size: 0.9rem;
+}
+
+.text{
+    display: flex;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.book{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.backpack-img{
+    width: 360px;
+    height: 250px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+
+}
+
+.location {
+    width: 59%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}

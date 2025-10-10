@@ -1,0 +1,67 @@
+.places {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.places-content{
+    margin: 10px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.places-content img {
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.places-content > div:first-of-type {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    color: white;
+    padding: 1.5rem;
+    padding-bottom: 70px;
+}
+
+.places-content > button {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: lightblue;
+    border: none;
+    padding: 1rem 6rem;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 9;
+    white-space: nowrap;
+}
+
+.places-content > div:last-of-type {
+    position: absolute;
+    bottom: 4rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #333;
+}
+
+.places-content h2, .places-content p {
+    margin: 0.25rem 0;
+    color: white;
+}
+
+.places-content > div:last-of-type h2 {
+    color: white;
+    margin: 0;
+}

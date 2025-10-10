@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    background: lightblue;
+
+}
+
+.foot{
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 250px 40px 40px 40px;
+    letter-spacing: 0.5px;
+}
+
+.foot-logo{
+    background: transparent;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+
+h4{
+    margin: 5px 0;
+}
