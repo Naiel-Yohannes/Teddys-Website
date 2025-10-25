@@ -16,9 +16,10 @@ function Flying(){
                     <fieldset className='trip'>
                         <legend className='trip'>Trip</legend>
                         <select id="trip">
-                            <option value="">Return</option>
-                            <option value="">America</option>
-                            <option value="">England</option>                    <option value="">France</option>
+                            <option value="Return">Return</option>
+                            <option value="America">America</option>
+                            <option value="England">England</option>                    
+                            <option value="France">France</option>
                         </select>    
                     </fieldset>                  
                     
@@ -29,7 +30,7 @@ function Flying(){
                                       
                     <fieldset className='passenger'>
                         <legend className='passenger-class'>Passenger - Class</legend>
-                        <input className='input' type="text" id='passenger-class' placeholder='1 Passenger, Economy'/>
+                        <input className='input pas-inp' type="text" id='passenger-class' placeholder='1 Passenger...'/>
                     </fieldset>                
                 </form>
                 <div className='final'>

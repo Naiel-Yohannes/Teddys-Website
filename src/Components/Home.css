@@ -33,7 +33,11 @@
 .hero-content p {
   font-size: 1rem;
 }
-
+@media (max-width: 1440px) {
+    .hero{
+        padding: 4rem 0 14rem 0;
+    }
+}
 @media (max-width: 780px) {
     .hero{
         padding: 4.5rem 0 9rem 0;
