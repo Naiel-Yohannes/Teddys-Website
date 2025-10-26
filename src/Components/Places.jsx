@@ -21,7 +21,7 @@ function Places(){
         description: "London eye adventure"
     },
     {
-        img: "https://freedomhouse.org/sites/default/files/styles/768x400_fp_scale_crop_/public/2019-10/colombia-fotn2019-countryhero.jpg?h=2659976f&itok=01iuBEO6",
+        img: "https://uncovercolombia.com/site/assets/files/1715/cartagena-colombia-vacations.jpg?3408rz",
         text: "Columbia",
         price: "$700",
         description: "Amazing streets"

@@ -21,3 +21,22 @@
     border: none;
     border-radius: 0px;
 }
+
+@media (max-width: 720px) {
+    .global{
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+    .globe-img{
+        height: 400px;
+    }
+}
+@media (max-width: 480px) {
+    .global{
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    .globe-img{
+        height: 300px;
+    }
+}

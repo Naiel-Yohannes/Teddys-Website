@@ -2,8 +2,9 @@
     width: 95%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .places-content{
@@ -14,12 +15,10 @@
 }
 
 .places-content img {
-    height: 300px;
     object-fit: cover;
     display: block;
-    width: 300px;
+    width: 270px;
     height: 350px;
-    border-radius: 10px;
 }
 
 .places-content > div:first-of-type {
@@ -33,27 +32,25 @@
     padding-bottom: 70px;
 }
 
-.places-content > button {
+.places-content button {
     position: absolute;
     bottom: 1rem;
     left: 50%;
     transform: translateX(-50%);
     background: lightblue;
     border: none;
-    padding: 1rem 6rem;
+    padding: 1rem 5rem;
     border-radius: 5px;
     cursor: pointer;
     z-index: 9;
     white-space: nowrap;
 }
 
-.places-content > div:last-of-type {
+.places-content div:last-of-type {
     position: absolute;
     bottom: 4rem;
     right: 1rem;
     padding: 0.5rem 1rem;
-    border-radius: 5px;
-    color: #333;
 }
 
 .places-content h2, .places-content p {
@@ -61,7 +58,88 @@
     color: white;
 }
 
-.places-content > div:last-of-type h2 {
-    color: white;
-    margin: 0;
+@media (max-width: 768px) {
+    .places {
+        margin-bottom: 40px;
+    }
+    .places-content img {
+        width: 220px;
+        height: 300px;
+    }
+    .places-content div:first-of-type {
+        padding: .9rem;
+        padding-bottom: 70px;
+        font-size: 1rem;
+    }
+    .places-content button {
+        bottom: .9rem;
+        padding: .9rem 2.9rem;
+        font-size: .9rem;
+    }
+    .places-content div:last-of-type {
+        bottom: 5.5rem;
+        right: .5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .places {
+        width: 98%;
+        margin-bottom: 20px;
+    }
+    .places-content{
+        margin: 5px;
+        border-radius: 5px;
+    }
+    .places-content img {
+        width: 180px;
+        height: 250px;
+    }
+    .places-content div:first-of-type {
+        padding: .8rem;
+        padding-bottom: 60px;
+        font-size: .8rem;
+    }
+    .places-content button {
+        bottom: .8rem;
+        padding: .7rem 2.7rem;
+        border-radius: 5px;
+        font-size: .7rem;
+    }
+    .places-content div:last-of-type {
+        bottom: 4.5rem;
+        right: 0;
+        font-size: .8rem;
+    }
+}
+ @media (max-width: 320px) {
+    .places {
+        width: 98%;
+        margin-bottom: 10px;
+    }
+    .places-content{
+        margin: 5px;
+        border-radius: 5px;
+    }
+    .places-content img {
+        width: 145px;
+        height: 225px;
+    }
+    .places-content  div:first-of-type {
+        padding: .6rem;
+        padding-bottom: 50px;
+        font-size: .6rem;
+    }
+    .places-content button {
+        bottom: .6rem;
+        padding: .5rem 2.5rem;
+        border-radius: 5px;
+        font-size: .6rem;
+    }
+    .places-content div:last-of-type {
+        bottom: 4.2rem;
+        right: 0;
+        font-size: .6rem;
+    }
 }
