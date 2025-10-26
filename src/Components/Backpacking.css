@@ -2,18 +2,19 @@
     width: 95%;
     margin: 0 auto;
     display: flex;
-    height: 540px;
+    height: auto;
 }
 
 .booking{
-    width: 41%;
+    width: auto;
+    max-width: 450px;
     margin: 10px;
     border-radius: 10px;
     background: lightblue;
-    padding: 30px;
+    padding: 25px;
 }
 
-h1{
+.booking .text h1{
     font-size: 2.5rem;
 }
 
@@ -30,6 +31,7 @@ h1{
 
 .text{
     display: flex;
+    justify-content: space-between;
 }
 
 .description {
@@ -47,18 +49,183 @@ h1{
 }
 
 .backpack-img{
-    width: 360px;
+    width: 330px;
     height: 250px;
+    margin: 4px 0;
     border: 2px solid lightblue;
     border-radius: 10px;
-
 }
 
 .location {
-    width: 59%;
+    width: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 10px;
     align-items: center;
+    outline: none;
 }
+
+@media (max-width: 1224px) {
+    .backpack{
+        flex-direction: column;
+    }
+    .booking{
+        max-width: 100%;
+    }
+    .backpack-img{
+        width: 45%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .backpack{
+        width: 96%;
+        flex-direction: column;
+    }
+    .booking{
+        max-width: 100%;
+        border-radius: 5px;
+        padding: 20px;
+    }
+    .booking .text h1{
+        font-size: 1.5rem;
+    }
+    .text div p{
+        font-size: 0.9rem;
+    }
+    .description p {
+        font-size: 0.8rem;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        gap: 1.7rem;
+    }
+    .book{
+        font-size: 0.9rem;
+    }
+    .backpack-img{
+        width: 200px;
+        height: 200px;
+    }
+    .location {
+        margin: 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    .backpack{
+        width: 98%;
+        flex-direction: column;
+    }
+    .booking{
+        max-width: 450px;
+        border-radius: 5px;
+        padding: 15px;
+    }
+    .booking .text h1{
+        font-size: 1.2rem;
+    }
+    .text div p{
+        font-size: 0.7rem;
+    }
+    .description p {
+        font-size: 0.7rem;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        gap: 1.4rem;
+    }
+    .book{
+        font-size: 0.7rem;
+    }
+    .backpack-img{
+        width: 180px;
+        height: 150px;
+    }
+    .location {
+        margin: 3px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .backpack{
+        width: 99%;
+        flex-direction: column;
+    }
+    .booking{
+        max-width: 450px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .booking .text h1{
+        font-size: 1rem;
+    }
+    .text div p{
+        font-size: 0.5rem;
+    }
+    .description p {
+        font-size: 0.6rem;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .book{
+        font-size: 0.5rem;
+    }
+    .backpack-img{
+        width: 135px;
+        height: 115px;
+    }
+    .location {
+        margin: 5px;
+    }
+}
+
+
+
+
+
+
+/*@media (max-width: 768px) {
+    .backpack{
+        width: 97%;
+        flex-direction: row;
+    }
+    .booking{
+        max-width: 300px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .booking .text h1{
+        font-size: 2rem;
+    }
+    .text div p{
+        font-size: 0.8rem;
+    }
+    .description p {
+        font-size: 0.8rem;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .book{
+        font-size: 0.9rem;
+    }
+    .backpack-img{
+        margin: 0 2px;
+        width: 200px;
+        height: 200px;
+    }
+    .location {
+        margin: 8px;
+    }
+}*/ 
