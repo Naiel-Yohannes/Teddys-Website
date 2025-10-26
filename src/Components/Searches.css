@@ -5,6 +5,7 @@
 
 .searches{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0;
 }
@@ -12,10 +13,40 @@
     width: 100px;
     height: 100px;
     border-radius: 10px;
-    margin-right: 10px;
+    margin: 5px 10px 5px  0;
 }
 .s-content{
     width: 240px;
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 768px) {
+    .search h2{
+        font-size: 1.3rem;
+    }
+    .s-content div h4{
+        font-size: .9rem;
+    }.s-content div p{
+        font-size: .8rem;
+    }
+    .s-img{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .search h2{
+        font-size: 1rem;
+    }
+    .s-content div h4{
+        font-size: .7rem;
+    }.s-content div p{
+        font-size: .6rem;
+    }
+    .s-img{
+        width: 70px;
+        height: 70px;
+    }
 }
