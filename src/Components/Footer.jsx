@@ -18,6 +18,7 @@ function Footer(){
                     </div>
                     <h1>LOGO</h1>
                 </div>
+                <div className='info'>
                 <div>
                     <h4>Our Destinations</h4>
                     <ul>
@@ -58,6 +59,7 @@ function Footer(){
                         <li><a href="">Our Story</a></li>
                         <li><a href="">Work with us</a></li>
                     </ul>
+                </div>
                 </div>
             </div>
             </div>
