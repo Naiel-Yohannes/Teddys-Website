@@ -31,3 +31,102 @@
     cursor: pointer;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .subscribe{
+        width: 70%;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .sub-img{
+        width: 200px;
+    }
+    .sub h1{
+        font-size: 1.2rem;
+    }
+    .sub h2{
+        font-size: 1rem;
+    }
+    .sub p{
+        font-size: .9rem;
+    }
+    .email-inp{
+        padding: 12px;
+        border-radius: 5px;
+        width: 60%;
+        margin-right: 10px;
+        margin-top: 14px;
+        font-size: .8rem;
+    }
+    .submit{
+        padding: 11px 22px;
+        border-radius: 5px;
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .subscribe{
+        width: 90%;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .sub-img{
+        display: none;
+    }
+    .sub h1{
+        font-size: 1rem;
+    }
+    .sub h2{
+        font-size: .9rem;
+    }
+    .sub p{
+        font-size: .7rem;
+    }
+    .email-inp{
+        padding: 9px;
+        border-radius: 5px;
+        width: 60%;
+        margin-right: 7px;
+        margin-top: 10px;
+        font-size: .7rem;
+    }
+    .submit{
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .subscribe{
+        width: 97%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .sub-img{
+        display: none;
+    }
+    .sub h1{
+        font-size: .9rem;
+    }
+    .sub h2{
+        font-size: .8rem;
+    }
+    .sub p{
+        font-size: .6rem;
+    }
+    .email-inp{
+        padding: 7px;
+        border-radius: 5px;
+        width: 60%;
+        margin-right: 5px;
+        margin-top: 10px;
+        font-size: .6rem;
+    }
+    .submit{
+        padding: 8px 16px;
+        border-radius: 5px;
+        font-size: .7rem;
+    }
+}
